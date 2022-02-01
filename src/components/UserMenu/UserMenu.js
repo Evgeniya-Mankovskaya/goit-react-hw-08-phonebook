@@ -5,7 +5,7 @@ import s from "./UserMenu.module.css";
 
 export default function UserMenu() {
   const dispatch = useDispatch();
-  const name = useSelector(authSelectors.getUsername);
+  const name = useSelector(authSelectors.getUserName);
   const avatar = defaultAvatar;
 
   return (
